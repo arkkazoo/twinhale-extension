@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"
+    />
+    <title>Extension Options</title>
+  </head>
+
+  <body>
+    <h1>Notion settings</h1>
+    <h2>Notion API Token</h2>
+    <label for="nameInput">enter your Notion API token:</label>
+    <input type="password" id="NotionAPITokenInput" />
+    <button id="saveButton">save</button>
+
+    <h2 id="ListDatabase">Notion Databases</h2>
+
+    <h2>add Notion Database</h2>
+    <form id="formNewDatabase">
+      <label for="newDatabaseName">database name</label>
+      <input type="text" name="name" />
+      <label for="newDatabaseId">database id</label>
+      <input type="text" name="id" />
+    </form>
+    <button id="btnNewDatabase">add database</button>
+
+    <script src="options.js"></script>
+  </body>
+</html>
