@@ -1,4 +1,3 @@
-// npx webpack --config webpack.config.js -w
 const path = require('node:path')
 module.exports = {
   entry: {
